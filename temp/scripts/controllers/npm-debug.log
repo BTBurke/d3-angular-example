@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', '-g', 'install', 'compass' ]
+2 info using npm@1.1.69
+3 info using node@v0.8.16
+4 verbose read json /usr/local/lib/package.json
+5 verbose read json /usr/local/lib/package.json
+6 verbose cache add [ 'compass', null ]
+7 silly cache add name=undefined spec="compass" args=["compass",null]
+8 verbose parsed url { pathname: 'compass', path: 'compass', href: 'compass' }
+9 silly lockFile 9d0f85fe-compass compass
+10 verbose lock compass /Users/btb/.npm/9d0f85fe-compass.lock
+11 silly lockFile 9d0f85fe-compass compass
+12 verbose addNamed [ 'compass', '' ]
+13 verbose addNamed [ null, '' ]
+14 silly lockFile 1c2955e8-compass compass@
+15 verbose lock compass@ /Users/btb/.npm/1c2955e8-compass.lock
+16 silly addNameRange { name: 'compass', range: '', hasData: false }
+17 verbose url raw compass
+18 verbose url resolving [ 'https://registry.npmjs.org/', './compass' ]
+19 verbose url resolved https://registry.npmjs.org/compass
+20 info trying registry request attempt 1 at 11:57:46
+21 http GET https://registry.npmjs.org/compass
+22 http 404 https://registry.npmjs.org/compass
+23 silly registry.get cb [ 404,
+23 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+23 silly registry.get     date: 'Sun, 16 Dec 2012 16:56:51 GMT',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'content-length': '52',
+23 silly registry.get     'cache-control': 'must-revalidate' } ]
+24 silly lockFile 1c2955e8-compass compass@
+25 error 404 'compass' is not in the npm registry.
+25 error 404 You should bug the author to publish it
+25 error 404
+25 error 404 Note that you can also install from a
+25 error 404 tarball, folder, or http url, or git url.
+26 error System Darwin 11.4.2
+27 error command "node" "/usr/local/bin/npm" "-g" "install" "compass"
+28 error cwd /Users/btb/project/d3test/app/scripts/controllers
+29 error node -v v0.8.16
+30 error npm -v 1.1.69
+31 error code E404
+32 verbose exit [ 1, true ]
